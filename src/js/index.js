@@ -16,6 +16,11 @@ async function iniciarMap(){
         map: map
 });
 }
+
+function resetForm() {
+  document.getElementById("miFormulario").reset();
+}
+
 let map;
 
 async function initMap() {
